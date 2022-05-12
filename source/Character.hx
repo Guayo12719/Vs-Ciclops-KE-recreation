@@ -41,7 +41,7 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN', 'SPEED_DOWN', 24, false);
 				animation.addByIndices('stare', 'stareidle', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
 
-				addOffset('idle');
+				addOffset('SPEED_IDLE');
 
 				addOffset("SPEED_UP", 0, 4);
 				addOffset("SPEED_RIGHT", 0, -20);
