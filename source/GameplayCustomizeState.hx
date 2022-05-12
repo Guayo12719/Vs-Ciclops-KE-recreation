@@ -55,7 +55,7 @@ class GameplayCustomizeState extends MusicBeatState
 		persistentUpdate = true;
 
 		#if mobileC
-		addVirtualPad(NONE, A_B);	
+		addVirtualPad(TRUE, A_B);	
 		#end
 
         super.create();
